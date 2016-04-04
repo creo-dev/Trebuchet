@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="48dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="24dp"
+        android:paddingRight="46dp">
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_sense_full"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/workspace_cling_longpress_title"
+                android:textColor="#ffffff"
+                android:lineSpacingExtra="6dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="-2dp"
+                android:text="@string/workspace_cling_longpress_description"
+                android:textColor="#ffffff"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="32sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cling_dismiss_longpress_info"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="19dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/workspace_cling_longpress_dismiss"
+        android:textColor="#FFFFFFFF"
+        android:textSize="14sp" />
+
+</LinearLayout>
